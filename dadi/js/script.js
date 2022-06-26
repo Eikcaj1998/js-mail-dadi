@@ -13,3 +13,15 @@ const diceComputer = parseInt(Math.floor(Math.random() * 6) + 1);
 //valore dei dati
 console.log ('l\'utente ha fatto:' + dicePlayer);
 console.log ('l\'IA ha fatto:' + diceComputer);
+//variabili di vittoria
+if(dicePlayer > diceComputer){
+    console.log(winnerDice + playerDice )
+}
+
+else if (dicePlayer < diceComputer){
+    console.log(winnerDice + iaDice)
+}
+
+else if (dicePlayer === diceComputer){
+    console.log (tiedMatch)
+}
