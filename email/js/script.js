@@ -42,4 +42,22 @@ const emailAddress = [
 'andrealerri@gmail.com',
 ];
 window.alert('Boolean classe 68')
+const logIn = prompt('inserisci la tua mail di Boolean','jw220998@gmail.com');
+
+let search = false;
+for (let i = 0; i < emailAddress.length; i++) {
+    if (emailAddress[i] === logIn) {
+        search = true;
+    }
+}
+    
+    if (search) {
+        console.log('benvenuto')
+        window.alert('Benvenuto nella classe 68')
+    }
+    else { 
+    console.log ('spiacenti l\'email non e presente nella lista')
+    window.alert('spiacenti l\'email non e presente nella lista')
+}
+
 
